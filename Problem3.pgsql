@@ -1,0 +1,39 @@
+-- CREATE TABLE phone(id SERIAL PRIMARY KEY, name VARCHAR, price INT);
+--3
+-- INSERT INTO phone(name, price)
+-- VALUES('Iphone', 100);
+--4
+-- ALTER TABLE phone ADD COLUMN country VARCHAR;
+--5
+-- INSERT INTO phone(name, price, country)
+-- VALUES('Samsung', 120, 'korea');
+--6
+-- INSERT INTO phone(name, price, country)
+-- VALUES('Nokia', 1000, 'kyrgyzstan');
+--7
+-- INSERT INTO phone(name, price, country)
+-- VALUES('MI', 1, 'uzbekistan');
+--8
+-- INSERT INTO phone(name, price, country)
+-- VALUES('Google', 0, 'USA');
+--9
+-- CREATE TABLE cars(id SERIAL PRIMARY KEY, name VARCHAR, price INT DEFAULT 300);
+--10
+-- INSERT INTO cars(name, price)
+-- VALUES('MB', 1000)
+-- --11
+-- ALTER TABLE cars ADD COLUMN country VARCHAR;
+-- --12
+-- INSERT INTO cars(name, price, country)
+-- VALUES('Audi', 300, 'Germany')
+-- --13
+-- INSERT INTO cars(name, price, country)
+-- VALUES('BMW', 12000, 'Germany')
+-- --14
+-- INSERT INTO cars(name, price, country)
+-- VALUES('Tulpar', 100000, 'Germany')
+-- --15
+-- UPDATE cars
+-- SET country = 'Germany' WHERE id = 1
+-- --16
+-- DELETE FROM cars WHERE price < 1000;
